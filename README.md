@@ -2,7 +2,7 @@
 Webcam filter that draws video to the screen using keyboard characters
 
 
-[![ASCII Filter Demo](https://imgur.com/a/3mV6AgF.png)](https://www.youtube.com/watch?v=fN0fT94LBX4 "ASCII Filter Demo")
+[![ASCII Filter Demo](https://imgur.com/Fy4X7Kn.png)](https://www.youtube.com/watch?v=fN0fT94LBX4 "ASCII Filter Demo")
 
 
 ## Description
