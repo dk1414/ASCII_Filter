@@ -7,19 +7,20 @@ Webcam filter that draws video to the screen using keyboard characters
 
 ## Description
 
-
+Main code to run is in the main.py file. The program uses pygame's camera module to get a video feed from the first webcam that it finds.
+For each image, the program averages each pixel's color to find its brightness. Then each pixel is mapped to an ASCII character that fits that brightness.
+The program can also decrease the resolution. This is done by using a box blur (When I wrote this algorithm I didn't actually know what a box blur was, so my implementaion is the naive version). 
 
 
 
 ### Installing
 
 * Download zip file and unzip into directory of your choice
-* Open the viewer.py file and run
+* Open the main.py file and run
 
 ### Executing program
-
+* Make sure you have a webcam connected to your computer if one is not built-in
+* This filter works best on low resolutions, so if possible change your resolution settings before hand
 * Once you download all necessary files and run the viewer.py file, the main window should appear
-* Increase the list size and tick speed to your liking
-* Clicking any of the sort buttons will begin sorting
-* During sorting, you can switch which algorithm is being used while maintaining the state of the list by clicking another sort button
-* Once the list is completely sorted, there will be a small animation, after which, you can reshuffle the list by hitting the reset button
+* You should see your webcam image in ASCII form
+* Click the buttons to change the resolution
